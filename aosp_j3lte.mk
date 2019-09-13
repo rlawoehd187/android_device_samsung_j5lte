@@ -1,14 +1,14 @@
 
 # Inherit from common
-$(call inherit-product, device/samsung/j5-common/pa.mk)
+$(call inherit-product, device/samsung/j3-common/lineage.mk)
 
-$(call inherit-product, device/samsung/j5lte/device.mk)
+$(call inherit-product, device/samsung/j3lte/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := j5lte
-PRODUCT_NAME := pa_j5lte
+PRODUCT_DEVICE := j3lte
+PRODUCT_NAME := aosp_j3lte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-J500F
+PRODUCT_MODEL := SM-J320N0
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 
